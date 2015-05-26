@@ -1,0 +1,2 @@
+# Decrease swap usage to a more reasonable level
+vm.swappiness=10

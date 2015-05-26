@@ -1,0 +1,28 @@
+<div class="jumbotron text-center">
+    <h1>Home</h1>
+    <p class="lead">
+    <img src="assets/images/yeoman.png" alt="I'm Yeoman"><br>
+    Always a pleasure scaffolding your apps.
+    </p>
+    <p><a class="btn btn-lg btn-success" data-ng-href="#">Splendid!</a></p>
+</div>
+
+<!-- <div class="row">
+    <div class="col-sm-8 col-sm-offset-2">
+        <div ng-class="{ 'alert': flash, 'alert-success': flash.type === 'success', 'alert-danger': flash.type === 'error' }" ng-if="flash" ng-bind="flash.message"></div>
+        <div ng-view></div>
+    </div>
+</div> -->
+
+<div class="row">
+    <div class="col-sm-6 col-md-4" data-ng-repeat="awesomeThing in vm.awesomeThings | orderBy:'rank'">
+        <div class="thumbnail">
+            <img class="pull-right" data-ng-src="assets/images/{{awesomeThing.logo}}" alt="{{awesomeThing.title}}">
+            <div class="caption">
+                <h3>{{awesomeThing.title}}</h3>
+                <p>{{awesomeThing.description}}</p>
+                <p><a data-ng-href="{{awesomeThing.url}}">{{awesomeThing.url}}</a></p>
+            </div>
+        </div>
+    </div>
+</div>
