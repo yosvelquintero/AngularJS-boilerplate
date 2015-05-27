@@ -19,6 +19,12 @@ Always a pleasure scaffolding your apps with Generator-Gulp-Angular https://gith
 * BrowserSync. Time-saving synchronised browser testing. http://browsersync.io/
 
 
+## After git clone:
+
+* $ sudo npm install
+* $ sudo bower install --allow-root
+
+
 ## Gulp tasks:
 
 * gulp or gulp build to build an optimized version of your application in /dist
