@@ -1,10 +1,11 @@
 AngularJS boilerplate
 ========================
 
-Always a pleasure scaffolding your apps.
+Always a pleasure scaffolding your apps with generator-gulp-angular (https://github.com/Swiip/generator-gulp-angular).
 
 
 ## Building on top of:
+
 * AngularJS. HTML enhanced for web apps! - https://angularjs.org/
 * Angular Strap. AngularJS 1.2+ native directives for Bootstrap 3. - http://mgcrea.github.io/angular-strap/
 * Restangular. AngularJS service to handle Rest API Restful Resources properly and easily - https://github.com/mgonto/restangular/
@@ -16,3 +17,14 @@ Always a pleasure scaffolding your apps.
 * Less. Less extends the CSS language, adding features that allow variables, mixins, functions and many other techniques. - http://lesscss.org/
 * GulpJS. The streaming build system. - http://gulpjs.com/
 * BrowserSync. Time-saving synchronised browser testing. - http://browsersync.io/
+
+
+## Gulp tasks:
+
+* gulp or gulp build to build an optimized version of your application in /dist
+* gulp serve to launch a browser sync server on your source files
+* gulp serve:dist to launch a server on your optimized application
+* gulp test to launch your unit tests with Karma
+* gulp test:auto to launch your unit tests with Karma in watch mode
+* gulp protractor to launch your e2e tests with Protractor
+* gulp protractor:dist to launch your e2e tests with Protractor on the dist files
