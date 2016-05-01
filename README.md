@@ -1,7 +1,7 @@
 AngularJS boilerplate
 ========================
 
-Always a pleasure scaffolding your apps with Generator-Gulp-Angular https://github.com/Swiip/generator-gulp-angular and using the Angular Style Guide https://github.com/johnpapa/angular-styleguide.
+Basic demo application with AngularJS, twitter bootstrap and Generator-Gulp-Angular https://github.com/Swiip/generator-gulp-angular and using the Angular Style Guide https://github.com/johnpapa/angular-styleguide.
 
 
 ## Building on top of:
